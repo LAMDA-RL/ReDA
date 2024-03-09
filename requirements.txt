@@ -1,0 +1,9 @@
+gym==0.22.0
+tensorboard
+tensorboardX
+torch==2.0.1
+UtilsRL
+cython<3
+mujoco_py
+glfw
+imageio
