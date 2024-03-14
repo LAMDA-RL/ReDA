@@ -1,4 +1,6 @@
-# ReDA
+# ReDA: Disentangling Policy from Offline Task Representation Learning via Adversarial Data Augmentation
+
+[Paper Link](http://arxiv.org/abs/2403.07261)
 
 This repo is an implementation of the AAMAS 2024 paper "Disentangling Policy from Offline Task Representation Learning via Adversarial Data Augmentation".
 
@@ -46,4 +48,16 @@ The first parameter specifies the environment. The second parameter specifies th
 
 ```bash
 bash offline_mbsac.sh Hopper-v2 1 grav
+```
+
+### Citations
+```
+@misc{jia2024disentangling,
+      title={Disentangling Policy from Offline Task Representation Learning via Adversarial Data Augmentation}, 
+      author={Chengxing Jia and Fuxiang Zhang and Yi-Chen Li and Chen-Xiao Gao and Xu-Hui Liu and Lei Yuan and Zongzhang Zhang and Yang Yu},
+      year={2024},
+      eprint={2403.07261},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
